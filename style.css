@@ -1,0 +1,33 @@
+.header {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 15pt;
+}
+
+body {
+  background: linear-gradient(#DEBAC0, #9370DB , #8C93A8, #62466B);
+  color: white;
+  font-family: "Garamond";
+  background-image: url('https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png');
+  margin: 0;
+  padding: 0;
+} 
+
+
+.menu {
+  background-color:white;
+  text-align: center;
+  border-style: double;
+  font-size: 10pt;
+  /*length: 200;
+  width: 300;
+  float: center;*/
+  position: relative;
+  overflow: auto;
+}
+
+.main-nav {
+    display: flex;
+}
+  
+
