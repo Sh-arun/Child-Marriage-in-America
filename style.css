@@ -5,7 +5,6 @@
 }
 
 body {
-  background: linear-gradient(#DEBAC0, #9370DB , #8C93A8, #62466B);
   color: white;
   font-family: "Garamond";
   background-image: url('https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png');
@@ -30,4 +29,11 @@ body {
     display: flex;
 }
   
+table, td {
+  border: 3px solid white;
+  font-size: 20pt;
+    margin: 20px auto;
+  align: right;
+   margin-top: 70px;
+}
 
