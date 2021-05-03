@@ -5,6 +5,7 @@ h1 {
   text-align: center;
   font-size: 30pt;
   color: white;
+
 }
 .navigation{
   background-color: white;
@@ -12,6 +13,7 @@ h1 {
   color: black;
   text-align: center;
   letter-spacing: 2px;
+
 }
 h2{
   color: white;
@@ -19,46 +21,37 @@ h2{
   text-align: center;
 }
 p {
-color: white;
+color: black;
 text-align: center;
 border: 5px solid white;
 font-size: 21pt;
-}
-table, td {
-color: black;
-border: 3px solid black;
-font-size: 20pt;
-margin: 20px auto;
-align: right;
-margin-top: 70px;
+width: 500px;
+height: 500px;
+margin: 10px auto;
+width: 50%;
+padding: 10px;
 background-color: white;
-  height: 100px;
-  
+
+
 }
 
-th{
-  background-color: black;
-  padding: 20px;
-  color: white;
-}
-footer{
-  background: white;
-  border: 1px solid white;
-  border-radius: 3px;
-  color: lightblue;
-  display: inline-block;
-  margin: 10px;
-  padding: 14px;
-  text-decoration: none;
+
+
+footer {
+  margin-top: 50px;
   text-align: center;
-  align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 5px;
+  z-index: 5;
+  background-color: lightblue;
+  color: black;
+  font-size: 20pt;
 }
 
-div {
-  height: 200px;
+footer h1 { 
+  display: inline-block;
+  font-size: 20px;
+
 }
 
-.Top {
-  font-size: 21pt;
-  margin: 0 auto;
-}
