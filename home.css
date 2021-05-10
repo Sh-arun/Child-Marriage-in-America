@@ -1,17 +1,12 @@
 body {
-
+  
 }
 
 h1 {
   text-align: center;
   font-size: 30pt;
   color: white;
-  
 }
-
-
-
-
 
 
 .navigation{
@@ -71,7 +66,6 @@ footer {
 footer h1 { 
   display: inline-block;
   font-size: 20px;
-
 }
 
 .image {
@@ -80,7 +74,6 @@ footer h1 {
  height: 600px;
   max-width: 100%;
   display: block;
-
 }
 
   h2 {
@@ -96,19 +89,11 @@ text-align: center;
 
 
 .image2 {
- width: 600px;
- height: 500px;
- margin: 0px 450px;
+ width: 700px;
+ height: 700px;
+ margin: 0px 400px;
  max-width: 90%;
  height: auto;
  display: block;
  max-width: 800px;
-  
-
-
 }
-
-.navigation:hover {
-  color: #black;
-}
-
