@@ -2,12 +2,14 @@ html {
   font-size: 16px;
 }
 
+body {
 
+}
 h1 {
   text-align: center;
   font-size: 30pt;
   color: white;
-  font-family: Dosis, Georgia;
+
 }
 .navigation{
   background-color: white;
@@ -32,7 +34,7 @@ margin: 10px auto;
 width: 50%;
 padding: 10px;
 background-color: white;
-font-family: Dosis, Georgia;
+
 
 }
 
@@ -52,7 +54,6 @@ font-family: Dosis, Georgia;
   margin: 0 auto;
   padding: 50px;
   text-align: center;
- 
 }
 
 footer {
@@ -64,24 +65,20 @@ footer {
   background-color: lightblue;
   color: black;
   font-size: 20pt;
-  font-family: Dosis, Georgia;
 }
 
 footer h1 { 
   display: inline-block;
   font-size: 20px;
-  font-family: Dosis, Georgia;
 
 }
 
 .image {
   margin: 0px 450px;
-  
 }
 
   h2 {
 text-align: center;
-    font-family: Dosis, Georgia;
   }
 
 .video {
