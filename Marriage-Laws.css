@@ -1,10 +1,10 @@
 body {
-background-image: url("https://images.unsplash.com/photo-1473773508845-188df298d2d1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw0OTE4MzZ8fGVufDB8fHx8&w=1000&q=80");
+
 }
 h1 {
   text-align: center;
   font-size: 30pt;
-  color: white;
+  color: black;
 }
 .navigation{
   background-color: white;
@@ -12,7 +12,32 @@ h1 {
   color: black;
   text-align: center;
   letter-spacing: 2px;
+  height: 50px;
+  position: sticky;
+  top: 0px;
+  width: 100%;
 }
+
+#banner {
+ background-image: url("https://i.pinimg.com/originals/4f/13/31/4f1331c982ddf530c441b6c0b27d879d.jpg");
+  background-size: cover;
+  background-position: bottom center;
+  height: 400px;
+  width: 100%;
+} 
+
+#banner .content h1 {
+  border: 3px solid white;
+  position: relative;
+  top: 50px;
+  width: 400px;
+  margin: 0 auto;
+  padding: 50px;
+  text-align: center;
+}
+
+
+
 h2{
   color: white;
   font-size: 23pt;
@@ -28,30 +53,32 @@ table, td {
 color: black;
 border: 3px solid black;
 font-size: 20pt;
-margin: 20px auto;
 align: right;
 margin-top: 70px;
 background-color: white;
-  height: 100px;
-  
+height: 100px;
+margin: 50px 200px;
+width: 75%;
+height: 70px;
 }
 
 th{
-  background-color: black;
+  background-color: lightblue;
   padding: 20px;
   color: white;
 }
 footer{
-  background: white;
+  background: lightblue;
   border: 1px solid white;
   border-radius: 3px;
-  color: lightblue;
+  color: white;
   display: inline-block;
   margin: 10px;
   padding: 14px;
   text-decoration: none;
   text-align: center;
   align: center;
+  margin: 50px 600px;
 }
 
 div {
@@ -61,4 +88,14 @@ div {
 .Top {
   font-size: 21pt;
   margin: 0 auto;
+}
+
+.intro {
+  margin: 50px 20px;
+  color: black
+}
+
+.scrollit {
+    overflow:scroll;
+    height: 500px;
 }
