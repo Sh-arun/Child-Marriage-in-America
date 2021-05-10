@@ -1,25 +1,33 @@
 body {
-background-image: url("https://images.unsplash.com/photo-1473773508845-188df298d2d1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw0OTE4MzZ8fGVufDB8fHx8&w=1000&q=80");
+
 }
+
 h1 {
   text-align: center;
   font-size: 30pt;
   color: white;
 }
+
 .navigation{
   background-color: white;
   font-size: 17pt;
   color: black;
   text-align: center;
   letter-spacing: 2px;
+  height: 50px;
+  position: sticky;
+  top: 0px;
+  width: 100%;
 }
+
+
 h2{
   color: white;
   font-size: 23pt;
   text-align: center;
 }
 p {
-color: white;
+color: black;
 text-align: center;
 font-size: 21pt;
 }
@@ -49,6 +57,7 @@ footer{
   text-decoration: none;
   text-align: center;
   align: center;
+  position: fixed;
 }
 
 div {
@@ -63,5 +72,55 @@ div {
 ul {
   border: 6px solid white;  
   font-size: 21pt;
-  color: white;
+  margin: 75px 200px;
 }
+
+.image1 {
+height: 350px;
+  width: 450px;
+  align: center;
+  margin: 0px 570px;
+}
+
+.image2 {
+  height: 350px;
+  width: 450px;
+  float: center;
+  padding: 5px;
+  margin: 0px 478px;
+} 
+
+#banner {
+ background-image: url("https://cdni0.trtworld.com/w480/h270/q75/8767-trtworld-399984-439138.jpg");
+  background-size: cover;
+  background-position: bottom center;
+  height: 400px;
+  width: 100%;
+} 
+
+#banner .content h1 {
+  border: 3px solid white;
+  position: relative;
+  top: 50px;
+  width: 400px;
+  margin: 0 auto;
+  padding: 50px;
+  text-align: center;
+}
+
+footer {
+  margin-top: 50px;
+  text-align: center;
+  width: 100%;
+  bottom: 5px;
+  z-index: 5;
+  background-color: lightblue;
+  color: black;
+  font-size: 20pt;
+}
+
+footer h1 { 
+  display: inline-block;
+  font-size: 20px;
+
+} 
