@@ -1,13 +1,13 @@
 body {
-background-image: url("https://images.unsplash.com/photo-1473773508845-188df298d2d1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw0OTE4MzZ8fGVufDB8fHx8&w=1000&q=80");
-  font-family: Garamound;
+
 }
+
 h1 {
   text-align: center;
   font-size: 30pt;
-  color: white;
-  background-image: url("http://www.defenddemocracy.press/wp-content/uploads/2018/03/chilh-mariage.jpg")
-    width: 650px;
+  
+  color: black;
+
 }
 .navigation{
   background-color: white;
@@ -15,27 +15,42 @@ h1 {
   color: black;
   text-align: center;
   letter-spacing: 2px;
-
+  height: 50px;
+  position: sticky;
+  top: 0px;
+  width: 100%;
 }
-h2{
-  color: white;
-  font-size: 23pt;
+
+p {
+color: black;
+text-align: center;
+margin: 0px 20px;
+width: 50%;
+padding: 10px;
+font-size: 14pt;
+}
+
+#banner {
+ background-image: url("https://assets.teenvogue.com/photos/59a5eaaf3826d901d14a4b72/5:2/w_3600,h_1440,c_limit/child-marriage.jpg");
+  background-size: cover;
+  background-position: bottom center;
+  height: 400px;
+  width: 100%;
+} 
+
+#banner .content h1 {
+  border: 3px solid white;
+  position: relative;
+  top: 50px;
+  width: 400px;
+  margin: 0 auto;
+  padding: 50px;
   text-align: center;
 }
-.Intro {
-color: white;
-text-align: center;
-border: 5px solid white;
-font-size: 18pt;
-
-}
-
-
 
 footer {
   margin-top: 50px;
   text-align: center;
-  position: fixed;
   width: 100%;
   bottom: 5px;
   z-index: 5;
@@ -47,24 +62,40 @@ footer {
 footer h1 { 
   display: inline-block;
   font-size: 20px;
+
 }
 
-div {
-  color: white;
-  border: 3px solid white;
-  font-size: 18pt;
+.image {
+  margin: 0px 10px;
+  width: 900px;
+  height: 850px;
 }
 
-.Effects {
-  background-color: linear-gradient(ivory, beige);
-  color: white;
-  
+.image4 {
+  width: 900px;
+  height: 600px;
 }
 
-ul {
-  color: white;
+
+  h2 {
+text-align: center;
 }
 
 .Facts {
-  color: white;
+  color: black;
+  margin: 0 auto;
+  margin: 50px 200px;
+  padding: 25px;
+} 
+
+.image2 {
+  margin: 0px 20px;
+  width: 900px;
+  height: 930px;
+  center: left;
+}
+
+.image3 {
+  width: 900px;
+  height: 450px;
 }
