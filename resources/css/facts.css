@@ -1,0 +1,101 @@
+body {
+
+}
+
+h1 {
+  text-align: center;
+  font-size: 30pt;
+  
+  color: black;
+
+}
+.navigation{
+  background-color: white;
+  font-size: 17pt;
+  color: black;
+  text-align: center;
+  letter-spacing: 2px;
+  height: 50px;
+  position: sticky;
+  top: 0px;
+  width: 100%;
+}
+
+p {
+color: black;
+text-align: center;
+margin: 0px 20px;
+width: 50%;
+padding: 10px;
+font-size: 14pt;
+}
+
+#banner {
+ background-image: url("https://assets.teenvogue.com/photos/59a5eaaf3826d901d14a4b72/5:2/w_3600,h_1440,c_limit/child-marriage.jpg");
+  background-size: cover;
+  background-position: bottom center;
+  height: 400px;
+  width: 100%;
+} 
+
+#banner .content h1 {
+  border: 3px solid white;
+  position: relative;
+  top: 50px;
+  width: 400px;
+  margin: 0 auto;
+  padding: 50px;
+  text-align: center;
+}
+
+footer {
+  margin-top: 50px;
+  text-align: center;
+  width: 100%;
+  bottom: 5px;
+  z-index: 5;
+  background-color: lightblue;
+  color: black;
+  font-size: 20pt;
+}
+
+footer h1 { 
+  display: inline-block;
+  font-size: 20px;
+
+}
+
+.image {
+  margin: 0px 10px;
+  width: 900px;
+  height: 850px;
+}
+
+.image4 {
+  width: 900px;
+  height: 600px;
+}
+
+
+  h2 {
+text-align: center;
+}
+
+.Facts {
+  color: black;
+  margin: 0 auto;
+  margin: 50px 200px;
+  padding: 25px;
+} 
+
+.image2 {
+  margin: 0px 20px;
+  width: 900px;
+  height: 930px;
+  center: left;
+}
+
+.image3 {
+  width: 900px;
+  height: 450px;
+}
