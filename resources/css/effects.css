@@ -1,0 +1,101 @@
+html {
+  font-size: 16px;
+}
+
+body {
+
+}
+h1 {
+  text-align: center;
+  font-size: 30pt;
+  color: white;
+
+}
+.navigation{
+  background-color: white;
+  font-size: 17pt;
+  color: black;
+  text-align: center;
+  letter-spacing: 2px;
+  height: 50px;
+  position: sticky;
+  top: 0px;
+  width: 100%;
+}
+
+ol, p {
+color: black;
+text-align: center;
+border: 5px solid white;
+font-size: 21pt;
+width: 500px;
+height: 500px;
+margin: 10px auto;
+width: 50%;
+padding: 10px;
+background-color: white;
+
+
+}
+
+#banner {
+ background-image: url("https://d3n8a8pro7vhmx.cloudfront.net/equalitynow/pages/1803/attachments/original/1558058586/Long_Term_Impacts_HEADER.png?1558058586'");
+  background-size: cover;
+  background-position: bottom center;
+  height: 400px;
+  width: 100%;
+} 
+
+#banner .content h1 {
+  border: 3px solid white;
+  position: relative;
+  top: 50px;
+  width: 400px;
+  margin: 0 auto;
+  padding: 50px;
+  text-align: center;
+}
+
+footer {
+  margin-top: 50px;
+  text-align: center;
+  width: 100%;
+  bottom: 5px;
+  z-index: 5;
+  background-color: lightblue;
+  color: black;
+  font-size: 20pt;
+}
+
+footer h1 { 
+  display: inline-block;
+  font-size: 20px;
+
+}
+
+.image {
+  margin: 0px 450px;
+}
+
+  h2 {
+text-align: center;
+  }
+
+.video {
+  width: 650px;
+  height: 500px;
+  align: center;
+  margin: 0px 425px;
+ box-sizing: border-box;
+
+}
+
+
+.image2 {
+ width: 900px;
+ height: 500px;
+ margin: 0px 250px;
+    overflow: hidden;
+   max-width: 50%;
+  height: auto;
+}
