@@ -1,0 +1,126 @@
+body {
+
+}
+
+h1 {
+  text-align: center;
+  font-size: 30pt;
+  color: white;
+}
+
+.navigation{
+  background-color: white;
+  font-size: 17pt;
+  color: black;
+  text-align: center;
+  letter-spacing: 2px;
+  height: 50px;
+  position: sticky;
+  top: 0px;
+  width: 100%;
+}
+
+
+h2{
+  color: white;
+  font-size: 23pt;
+  text-align: center;
+}
+p {
+color: black;
+text-align: center;
+font-size: 21pt;
+}
+table, td {
+color: black;
+border: 3px solid black;
+font-size: 20pt;
+margin: 20px auto;
+margin-top: 70px;
+background-color: white;
+  
+}
+
+th{
+  background-color: black;
+  padding: 20px;
+  color: white;
+}
+footer{
+  background: white;
+  border: 1px solid white;
+  border-radius: 3px;
+  color: lightblue;
+  display: inline-block;
+  margin: 10px;
+  padding: 14px;
+  text-decoration: none;
+  text-align: center;
+  align: center;
+  position: fixed;
+}
+
+div {
+  height: 200px;
+}
+
+.Top {
+  font-size: 21pt;
+  margin: 0 auto;
+}
+
+ul {
+  border: 6px solid white;  
+  font-size: 21pt;
+  margin: 75px 200px;
+}
+
+.image1 {
+height: 350px;
+  width: 450px;
+  align: center;
+  margin: 0px 570px;
+}
+
+.image2 {
+  height: 350px;
+  width: 450px;
+  float: center;
+  padding: 5px;
+  margin: 0px 478px;
+} 
+
+#banner {
+ background-image: url("https://cdni0.trtworld.com/w480/h270/q75/8767-trtworld-399984-439138.jpg");
+  background-size: cover;
+  background-position: bottom center;
+  height: 400px;
+  width: 100%;
+} 
+
+#banner .content h1 {
+  border: 3px solid white;
+  position: relative;
+  top: 50px;
+  width: 400px;
+  margin: 0 auto;
+  padding: 50px;
+  text-align: center;
+}
+
+footer {
+  margin-top: 50px;
+  text-align: center;
+  width: 100%;
+  bottom: 5px;
+  z-index: 5;
+  background-color: lightblue;
+  color: black;
+  font-size: 20pt;
+}
+
+footer h1 { 
+  display: inline-block;
+  font-size: 20px;
+
+} 
